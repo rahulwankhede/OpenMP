@@ -1,0 +1,10 @@
+# !/bin/csh
+#PBS -N job_parallel
+#PBS -l nodes=1:ppn=2
+
+cd /home/rahulw/vss_assignment
+./parallel 1 2
+./parallel 2 2
+./parallel 4 2
+./parallel 5 2
+./parallel 10 2
